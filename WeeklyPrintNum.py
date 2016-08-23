@@ -10,7 +10,7 @@ def printnumdefault():
     i = 0
     excel = dict()
     date = datetime.datetime.now().strftime("%Y-%m-%d")
-    columnstitle = ['中网公司员工', '子门店销售渠道', '大客户销售渠道']
+    columnstitle = ['', '', '']
     while i < 2:
         try:
             df = pd.read_excel(excel_dir[i], skiprows=3)
